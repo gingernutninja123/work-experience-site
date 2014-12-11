@@ -1,4 +1,70 @@
-* {
-  margin: 0;
-  padding: 0;
+
+
+body {
+  text-align:center;
+}
+
+#container {
+   width: 960px;
+   
+}
+
+header {
+	background-color:#E3E4E1;
+	border:2px solid black;
+	width:960px;
+	padding:30px;
+}
+
+a:hover {
+	color:blue;
+}
+#one {
+	background-color:#E3E4E1;
+	border:2px solid black;
+	width:960px;
+	padding:30px;
+	padding-bottom:40px;
+	text-indent: none
+
+}
+#two {
+	background-color:#E3E4E1;
+	border:2px solid black;
+	width:960px;
+	padding:30px;
+	padding-bottom:80px;
+}
+#three {
+	background-color:#E3E4E1;
+	border:2px solid black;
+	width:960px;
+	padding:30px;
+	padding-bottom:90px;
+}
+
+a {
+	color:black;
+	text-decoration: none
+}
+li {
+	font-size:18px;
+	font-family:Arial;
+	text-align:left;
+}
+#git {
+	width:200px;
+	height:200px;
+	float:right;
+}
+
+#code {
+	width:300px;
+	height:75it px;
+	float:right;
+}
+#computer {
+	width:200px;
+	height:200px;
+	float:right;
 }
