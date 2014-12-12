@@ -18,6 +18,11 @@ header {
 	border-bottom: none;
 	width:960px;
 	padding:30px;
+	position:relative;
+}
+
+h1 {
+	font-family: "modesto-expanded";
 }
 
 h2 {
