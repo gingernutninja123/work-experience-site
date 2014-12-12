@@ -1,7 +1,6 @@
-
-
 body {
   text-align:center;
+  background-color:#E3E4E1;;
 }
 
 #container {
@@ -12,6 +11,7 @@ body {
 header {
 	background-color:#E3E4E1;
 	border:2px solid black;
+	border-bottom: none;
 	width:960px;
 	padding:30px;
 }
@@ -22,18 +22,20 @@ a:hover {
 #one {
 	background-color:#E3E4E1;
 	border:2px solid black;
+	border-bottom: none;
 	width:960px;
 	padding:30px;
 	padding-bottom:40px;
-	text-indent: none
-
+	position: relative;
 }
 #two {
 	background-color:#E3E4E1;
 	border:2px solid black;
+	border-bottom: none;
 	width:960px;
 	padding:30px;
 	padding-bottom:80px;
+	position: relative;
 }
 #three {
 	background-color:#E3E4E1;
@@ -41,6 +43,7 @@ a:hover {
 	width:960px;
 	padding:30px;
 	padding-bottom:90px;
+	position: relative;
 }
 
 a {
@@ -55,16 +58,22 @@ li {
 #git {
 	width:200px;
 	height:200px;
-	float:right;
+	position: absolute;
+	top: 20px;
+	right: 30px;
 }
 
 #code {
 	width:300px;
-	height:75it px;
-	float:right;
+	height:75px;
+	position: absolute;
+	top: 80px;
+	right: 50px;
 }
 #computer {
 	width:200px;
 	height:200px;
-	float:right;
+	position: absolute;
+	top: 10px;
+	right: 20px;
 }
